@@ -193,5 +193,6 @@ public class IntegerBTree{
         System.out.println("Max: " + tree.max());
         System.out.println("Successor of 19: " + tree.successor(19));
         System.out.println("Predecessor of 19: " + tree.predecessor(19));
+        System.out.println("Predecessor of 22: " + tree.predecessor(22));
     }
 }
